@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interface de fogão acessível e inclusiva.">
+  <title>Fogão Acessível | Seu Nome</title>
+</head>
+
+<body style="margin:0; background:#0B1220; color:#E8EDF7; font-family:-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height:1.7;">
+
+  <a href="#conteudo" style="position:absolute; left:8px; top:8px; background:#0071E3; color:#fff; padding:8px 14px; border-radius:8px; text-decoration:none;">Pular para o conteúdo</a>
+
+  <header style="background:#0F1729; border-bottom:1px solid #22304A; padding:48px 24px 32px; text-align:center;">
+    <h1 style="margin:0 0 12px; font-size:2.5rem; letter-spacing:-0.02em;">Fogão para Todos</h1>
+    <p style="margin:0 auto 24px; max-width:560px; color:#A9B6CE; font-size:1.15rem;">
+      Uma interface pensada com empatia, para que cozinhar seja seguro e acessível a qualquer pessoa.
+    </p>
+    <nav aria-label="Navegação principal">
+      <a href="#sobre" style="display:inline-block; margin:4px; padding:10px 22px; background:#0071E3; color:#fff; text-decoration:none; border-radius:980px; font-weight:600;">Sobre mim</a>
+      <a href="#interface" style="display:inline-block; margin:4px; padding:10px 22px; background:#0071E3; color:#fff; text-decoration:none; border-radius:980px; font-weight:600;">A interface</a>
+      <a href="#manual" style="display:inline-block; margin:4px; padding:10px 22px; background:#0071E3; color:#fff; text-decoration:none; border-radius:980px; font-weight:600;">Manual de uso</a>
+    </nav>
+  </header>
+
+  <main id="conteudo" style="max-width:900px; margin:0 auto; padding:32px 24px;">
+
+    <section id="sobre" style="background:#121A2B; border:1px solid #22304A; border-radius:20px; padding:32px; margin-bottom:32px;">
+      <h2 style="margin-top:0; font-size:1.8rem;">Sobre mim</h2>
+      <p>Olá! Eu sou <strong>SEU NOME</strong>, [curso, instituição, etc.].</p>
+      <p>[Fale do seu papel como projetista e da importância de soluções <em>empáticas</em> e acessíveis.]</p>
+      <blockquote style="margin:24px 0 0; padding:12px 20px; border-left:4px solid #0071E3; background:#0F1729; color:#A9B6CE; border-radius:0 12px 12px 0;">
+        [Uma frase que resuma sua visão de design, opcional.]
+      </blockquote>
+    </section>
+
+    <section id="interface" style="background:#121A2B; border:1px solid #22304A; border-radius:20px; padding:32px; margin-bottom:32px;">
+      <h2 style="margin-top:0; font-size:1.8rem;">A nova interface</h2>
+
+      <figure style="margin:0 0 24px;">
+        <img src="img/fogao.png"
+             alt="Interface de um fogão acessível com três bocas identificadas pelos números 1, 2, 3. O painel frontal possui controles individuais com botões de aumentar e diminuir a temperatura, indicação do nível de calor, indicadores de superfície quente e um botão grande para desligar todas as bocas."
+             style="width:100%; height:auto; border-radius:16px; border:1px solid #22304A; display:block;">
+        <figcaption style="margin-top:10px; color:#A9B6CE; font-size:0.9rem; text-align:center;">
+          Figura 1: Interface do fogão acessível, criada como proposta visual para o projeto.
+        </figcaption>
+      </figure>
+
+      <h3>Conceito da interface</h3>
+      <p>A ideia principal da nova interface é deixar o funcionamento do fogão mais fácil de entender e utilizar. Em vez de depender somente de botões tradicionais, a interface utiliza números, símbolos, textos e indicadores para mostrar claramente qual boca está sendo utilizada e qual é o seu estado.</p>
+      <p>Os controles foram colocados na parte frontal para facilitar o acesso, principalmente para pessoas que utilizam cadeira de rodas ou possuem uma estatura menor. Cada boca possui seu próprio controle, evitando que o usuário precise procurar qual botão corresponde a determinada boca.</p>
+      <p>A interface também possui um botão grande de desligamento geral. Dessa forma, em uma situação de emergência ou simplesmente quando o usuário quiser desligar tudo, não é necessário procurar cada controle individualmente.</p>
+
+      <h3>Necessidades atendidas</h3>
+      <ul>
+        <li><strong>Cadeirantes e nanismo:</strong> os controles ficam na parte frontal do fogão e podem ser alcançados sem precisar estender o braço até a parte de trás do aparelho.</li>
+        <li><strong>Deficiência visual:</strong> números, textos e símbolos grandes e com bastante contraste em relação ao fundo, além de marcações em relevo para identificar os controles pelo toque e avisos sonoros ao acionar uma boca.</li>
+        <li><strong>Deficiência auditiva:</strong> informações importantes não dependem apenas de sons. O estado da boca também é mostrado por luzes, símbolos e textos.</li>
+        <li><strong>Daltonismo:</strong> as cores não são utilizadas sozinhas para indicar se uma boca está ligada, desligada ou quente. Cada situação também possui um símbolo ou texto correspondente.</li>
+        <li><strong>Segurança:</strong> existe um indicador específico para mostrar quando uma superfície continua quente mesmo depois que a boca foi desligada, além do botão de desligamento geral.</li>
+      </ul>
+
+      <h3>Princípios de usabilidade aplicados</h3>
+      <ol>
+        <li>Visibilidade do estado do sistema: cada boca mostra claramente seu nível de calor e se está ligada, desligada ou ainda quente.</li>
+        <li>Simplicidade: os controles foram reduzidos às funções principais, evitando uma grande quantidade de botões e informações desnecessárias.</li>
+        <li>Consistência: todas as bocas possuem o mesmo padrão de controle. O usuário aprende como funciona uma boca e consegue utilizar as outras da mesma forma.</li>
+        <li>Prevenção de erros: o indicador de superfície quente ajuda a evitar que o usuário toque em uma boca que ainda está quente. O botão de desligamento geral também facilita uma resposta rápida em situações de risco.</li>
+        <li>Reconhecimento em vez de memorização: os comandos são identificados por números, símbolos e textos, fazendo com que o usuário não precise memorizar o que cada botão significa.</li>
+        <li>Acessibilidade: as informações importantes são apresentadas de mais de uma maneira, utilizando textos, formas, símbolos e indicadores visuais.</li>
+      </ol>
+
+      <h3>Escolhas de cores, formas, sons, texturas e textos</h3>
+      <div style="overflow-x:auto;">
+        <table style="width:100%; border-collapse:collapse;">
+          <caption style="text-align:left; color:#A9B6CE; padding-bottom:8px;">Resumo das decisões de design</caption>
+          <thead>
+            <tr style="background:#0F1729;">
+              <th scope="col" style="text-align:left; padding:12px; border:1px solid #22304A;">Elemento</th>
+              <th scope="col" style="text-align:left; padding:12px; border:1px solid #22304A;">Escolha</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" style="text-align:left; padding:12px; border:1px solid #22304A;">Cores</th>
+              <td style="padding:12px; border:1px solid #22304A;">Foram utilizadas cores com bastante contraste para facilitar a visualização dos elementos. As cores servem como um auxílio, mas não são a única forma de identificar uma informação. Por exemplo, uma boca quente também possui o símbolo e o texto "QUENTE".</td>
+            </tr>
+            <tr>
+              <th scope="row" style="text-align:left; padding:12px; border:1px solid #22304A;">Formas</th>
+              <td style="padding:12px; border:1px solid #22304A;">Os comandos possuem formas simples e bem separadas. Os botões de aumentar e diminuir possuem posições diferentes e os indicadores utilizam símbolos fáceis de reconhecer.</td>
+            </tr>
+            <tr>
+              <th scope="row" style="text-align:left; padding:12px; border:1px solid #22304A;">Sons</th>
+              <td style="padding:12px; border:1px solid #22304A;">O fogão pode utilizar avisos sonoros para informar algumas ações, como o acionamento de uma boca. Porém, os sons não são a única forma de transmitir informações importantes, para que pessoas com deficiência auditiva também possam utilizar o aparelho.</td>
+            </tr>
+            <tr>
+              <th scope="row" style="text-align:left; padding:12px; border:1px solid #22304A;">Texturas</th>
+              <td style="padding:12px; border:1px solid #22304A;">Alguns controles podem possuir pequenas marcações ou diferenças de textura para facilitar a identificação pelo toque, principalmente para pessoas com baixa visão ou dificuldade para diferenciar os elementos visualmente.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="manual" style="background:#121A2B; border:1px solid #22304A; border-radius:20px; padding:32px; margin-bottom:32px;">
+      <h2 style="margin-top:0; font-size:1.8rem;">Manual de uso</h2>
+
+      <h3>Conhecendo os comandos</h3>
+      <ul>
+        <li><strong>Botão −:</strong> diminui o nível de calor da boca selecionada.</li>
+        <li><strong>Botão +:</strong> aumenta o nível de calor da boca selecionada.</li>
+        <li><strong>Número da boca:</strong> identifica qual boca está sendo controlada. A boca 1 corresponde ao primeiro queimador, a boca 2 ao segundo e assim por diante.</li>
+        <li><strong>Indicador de nível:</strong> mostra numericamente o nível de calor selecionado. Quanto maior o número, maior será a temperatura.</li>
+        <li><strong>Indicador "LIGADA":</strong> mostra que a boca está em funcionamento.</li>
+        <li><strong>Indicador "QUENTE":</strong> mostra que a superfície ainda está quente e que deve ser evitada, mesmo que a boca já tenha sido desligada.</li>
+        <li><strong>Indicador "FRIA":</strong> mostra que a superfície já não apresenta calor residual.</li>
+        <li><strong>Botão "DESLIGAR TODAS AS BOCAS":</strong> desliga todas as bocas ao mesmo tempo. Ele foi colocado em destaque para poder ser encontrado rapidamente em uma situação de emergência.</li>
+      </ul>
+
+      <h3>Como acender uma boca</h3>
+      <ol>
+        <li>Primeiro, coloque a panela ou recipiente sobre a boca que deseja utilizar.</li>
+        <li>Identifique no painel o número correspondente à boca escolhida.</li>
+        <li>Pressione o botão + da boca selecionada para iniciar o aquecimento.</li>
+        <li>Continue pressionando o botão + até chegar ao nível de calor desejado.</li>
+        <li>Confira o indicador da boca. Ele deverá mostrar que ela está LIGADA.</li>
+        <li>Durante o uso, o nível de calor pode ser aumentado ou diminuído utilizando os botões + e −.</li>
+      </ol>
+
+      <h3>Como ajustar a temperatura</h3>
+      <ol>
+        <li>Observe o número mostrado no controle da boca que está sendo utilizada.</li>
+        <li>Pressione + para aumentar o nível de calor.</li>
+        <li>Pressione − para diminuir o nível de calor.</li>
+        <li>O número no centro do controle será atualizado para mostrar o novo nível selecionado.</li>
+        <li>Caso seja necessário diminuir rapidamente o calor, pressione o botão − até chegar ao nível desejado.</li>
+      </ol>
+
+      <h3>Como desligar</h3>
+      <ol>
+        <li>Pressione o botão − da boca utilizada até que o nível chegue a 0.</li>
+        <li>Confira se o indicador mostra que a boca está desligada.</li>
+        <li>Observe o indicador de calor residual antes de tocar na superfície.</li>
+        <li>Se o indicador mostrar QUENTE, não toque na boca até que ela esteja fria.</li>
+      </ol>
+
+      <aside style="margin-top:28px; padding:20px 24px; background:#1E1A10; border:2px solid #FFB84D; border-radius:16px;">
+        <h3 style="margin-top:0; color:#FFB84D;">⚠️ Dicas de segurança</h3>
+        <ul style="margin-bottom:0;">
+          <li>Nunca toque em uma boca que esteja com o indicador QUENTE aceso, mesmo que ela já esteja desligada.</li>
+          <li>Mantenha objetos inflamáveis, como panos e embalagens, longe das bocas durante o uso.</li>
+          <li>Utilize panelas estáveis e que estejam bem posicionadas sobre a boca.</li>
+          <li>Não deixe o fogão ligado sem supervisão durante o preparo dos alimentos.</li>
+          <li>Em uma situação de emergência, utilize o botão DESLIGAR TODAS AS BOCAS para interromper o funcionamento.</li>
+          <li>Antes de sair da cozinha, confira se todas as bocas estão desligadas.</li>
+          <li>Mantenha os controles limpos e sem objetos sobre eles para evitar acionamentos acidentais.</li>
+        </ul>
+      </aside>
+    </section>
+
+  </main>
+
+  <footer style="background:#0F1729; border-top:1px solid #22304A; padding:24px; text-align:center; color:#A9B6CE; font-size:0.9rem;">
+    <p style="margin:0;">Projeto de Desenvolvimento para Internet 1 · [Instituição] · <small>© 2026 SEU NOME</small></p>
+  </footer>
+
+</body>
+</html>
